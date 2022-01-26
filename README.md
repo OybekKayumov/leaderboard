@@ -17,7 +17,6 @@
 
 - Install packages\
   `npm install`
-  `webpack install`
   `npm start`
 
 ## Author

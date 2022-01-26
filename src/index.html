@@ -8,7 +8,43 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello webpack</h1>
+  <main>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+
+    <div class="row">
+      <section class="scores">
+        <header>
+          <h2>Recent scores</h2>
+          <button class="btn">Refresh</button>
+        </header>
+
+        <ul id="display-score">
+          <li>Name: 100</li>
+          <li>Name: 20</li>
+          <li>Name: 50</li>
+          <li>Name: 78</li>
+          <li>Name: 125</li>
+          <li>Name: 77</li>
+          <li>Name: 42</li>
+        </ul>
+      </section>
+
+      <section class="input-score">
+        <header>
+          <h2>Add your score</h2>
+        </header>
+
+        <form class="form">
+          <input class="input" type="text" name="name" >
+          <input class="input" type="text" name="name" >
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </section>
+
+    </div>
+  </main>
   
 </body>
 </html>

@@ -13,11 +13,10 @@
 - clone the repository by running\
    `git clone https://github.com/OybekKayumov/leaderboard.git`
 - navigate to the folder\
-   `cd leaderboard`
 
-- Install packages\
-  `npm install`
-  `npm start`
+**`$ cd leaderboard`**<br>
+**`$ npm install`**<br>
+**`$ npm start`**
 
 ## Author
 

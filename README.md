@@ -14,9 +14,9 @@
    `git clone https://github.com/OybekKayumov/leaderboard.git`
 - navigate to the folder\
 
-**`$ cd leaderboard`**<br>
-**`$ npm install`**<br>
-**`$ npm start`**
+- **`$ cd leaderboard`**<br>
+- **`$ npm install`**<br>
+- **`$ npm start`**
 
 ## Author
 

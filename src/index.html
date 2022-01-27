@@ -11,7 +11,7 @@
     <header>
       <h1>Leaderboard</h1>
     </header>
-
+    
     <div class="row">
       <section class="scores">
         <header>
@@ -20,14 +20,7 @@
         </header>
 
         <ul id="display-score">
-          <!-- <li>Name: 100</li>
-          <li>Name: 20</li>
-          <li>Name: 50</li>
-          <li>Name: 78</li>
-          <li>Name: 125</li>
-          <li>Name: 77</li>
-          <li>Name: 42</li>
-        </ul> -->
+        </ul>
       </section>
 
       <section class="input-score">
@@ -36,8 +29,12 @@
         </header>
 
         <form class="form">
-          <input class="input" type="text" name="user" >
-          <input class="input" type="number" name="score" >
+          <label for="user">
+            <input class="input" type="text" name="user" id="user" >
+          </label>
+          <label for="score">
+            <input class="input" type="number" name="score" id="score">
+          </label>
           <button class="btn" id="submit" type="submit">Submit</button>
         </form>
       </section>

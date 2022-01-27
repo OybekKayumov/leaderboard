@@ -6,15 +6,21 @@
 
 body {
   width: 100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+  background-color: cadetblue;
 }
 
 h1 {
   margin: 20px 40px;
+  font-size: 52px;
+  color: #fff;
 }
 
-h1,
 h2 {
-  color: #555;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
 }
 
 main {
@@ -24,7 +30,10 @@ main {
 
 li {
   list-style-type: none;
-  padding: 4px;
+  padding: 10px;
+  color: brown;
+  background-color: #333;
+  font-family: 'Franklin Gothic Medium', sans-serif;
 }
 
 ul {
@@ -32,16 +41,47 @@ ul {
   padding: 0;
 }
 
+section {
+  position: relative;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  background-color: #333;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+section:hover::before {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
 .btn {
   width: 100px;
-  height: 32px;
+  height: 42px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  filter: invert(85%);
 }
 
 .scores > header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .row {
@@ -60,7 +100,8 @@ ul {
 .form {
   display: flex;
   flex-direction: column;
-  width: 305px;
+  width: 250px;
+  margin-top: 18px;
 }
 
 .form > button {
@@ -76,6 +117,12 @@ ul {
 }
 
 .input {
-  margin: 12px 0;
-  border: 2px solid #555;
+  outline-offset: 5px;
+  outline: 2px solid #333;
+  margin: 16px 0;
+  border: none;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 2px 0;
+  background-color: #ccc;
 }

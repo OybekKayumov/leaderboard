@@ -1,7 +1,7 @@
 # leaderboard
 
 > "leaderboard" is a simple web application that displays a table of names and scores and allows you to add and remove names and scores from that table.
-> ![leaderboard]()
+> ![leaderboard](https://user-images.githubusercontent.com/85465559/151371769-362724f1-72b8-4aab-93e3-c66b424c6cd7.png)
 
 ## Built With
 
